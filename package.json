@@ -1,6 +1,6 @@
 {
   "name": "@studiolabs/react-native-live-stream",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "a react-native module for live stream play and publish",
   "description": "a react-native module for live stream play and publish, support ios and android platform",
   "main": "index.js",
