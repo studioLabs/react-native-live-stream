@@ -24,8 +24,14 @@
     "url": "https://github.com/studioLabs/react-native-live-stream/issues"
   },
   "dependencies": {},
-  "peerDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
