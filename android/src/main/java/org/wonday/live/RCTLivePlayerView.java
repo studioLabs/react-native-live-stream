@@ -26,7 +26,7 @@ public class RCTLivePlayerView extends NodePlayerView implements LifecycleEventL
     private NodePlayer mNodePlayer;
     private Boolean isPaused = true;
     private ArrayList mChangedProps = new ArrayList<String>();
-    private Boolean canSendStatusEvent = false;
+    //private Boolean canSendStatusEvent = false;
 
     public RCTLivePlayerView(ThemedReactContext context) {
         super(context);
@@ -36,7 +36,7 @@ public class RCTLivePlayerView extends NodePlayerView implements LifecycleEventL
         mNodePlayer.setNodePlayerDelegate(new NodePlayerDelegate() {
             @Override
             public void onEventCallback(NodePlayer nodePlayer, int i, String s) {
-                if (canSendStatusEvent) {
+               // if (canSendStatusEvent) {
                     WritableMap event = Arguments.createMap();
                     event.putString("type", "status");
                     event.putInt("code", i);
@@ -46,7 +46,7 @@ public class RCTLivePlayerView extends NodePlayerView implements LifecycleEventL
                             getId(),
                             "topChange",
                             event);
-                }
+               // }
             }
         });
     }
@@ -106,7 +106,7 @@ public class RCTLivePlayerView extends NodePlayerView implements LifecycleEventL
 
         if (mChangedProps.contains("paused")) {
             if (isPaused) {
-                canSendStatusEvent = true;
+               // canSendStatusEvent = true;
                 if (mNodePlayer.isLive()) {
                     mNodePlayer.stop();
                 } else {
@@ -118,7 +118,7 @@ public class RCTLivePlayerView extends NodePlayerView implements LifecycleEventL
         }
 
         if (!isPaused && needStart) {
-            canSendStatusEvent = false;
+           // canSendStatusEvent = false;
             mNodePlayer.start();
         }
         
