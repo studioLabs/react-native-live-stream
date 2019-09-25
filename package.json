@@ -1,12 +1,12 @@
 {
     "name": "react-native-live-stream",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "summary": "a react-native module for live stream play and publish",
     "description": "a react-native module for live stream play and publish, support ios and android platform",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/wonday/react-native-live-stream.git"
+        "url": "git+https://github.com/studioLabs/react-native-live-stream.git"
     },
     "keywords": [
         "react-component",
@@ -18,13 +18,13 @@
         "livestream"
     ],
     "author": {
-        "name": "Wonday",
-        "url": "https://github.com/wonday"
+        "name": "studioLabs",
+        "url": "https://github.com/studioLabs"
     },
     "license": "MIT",
-    "homepage": "https://github.com/wonday/react-native-live-stream",
+    "homepage": "https://github.com/studioLabs/react-native-live-stream",
     "bugs": {
-        "url": "https://github.com/wonday/react-native-live-stream/issues"
+        "url": "https://github.com/studioLabs/react-native-live-stream/issues"
     },
     "dependencies": {
     },
