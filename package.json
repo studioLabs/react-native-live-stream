@@ -1,33 +1,31 @@
 {
-    "name": "@studiolabs/react-native-live-stream",
-    "version": "1.0.2",
-    "summary": "a react-native module for live stream play and publish",
-    "description": "a react-native module for live stream play and publish, support ios and android platform",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/studioLabs/react-native-live-stream.git"
-    },
-    "keywords": [
-        "react-component",
-        "react-native",
-        "android",
-        "ios",
-        "live",
-        "stream",
-        "livestream"
-    ],
-    "author": {
-        "name": "studioLabs",
-        "url": "https://github.com/studioLabs"
-    },
-    "license": "MIT",
-    "homepage": "https://github.com/studioLabs/react-native-live-stream",
-    "bugs": {
-        "url": "https://github.com/studioLabs/react-native-live-stream/issues"
-    },
-    "dependencies": {
-    },
-    "peerDependencies": {
-    }
+  "name": "@studiolabs/react-native-live-stream",
+  "version": "1.0.2",
+  "summary": "a react-native module for live stream play and publish",
+  "description": "a react-native module for live stream play and publish, support ios and android platform",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studioLabs/react-native-live-stream.git"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "android",
+    "ios",
+    "live",
+    "stream",
+    "livestream"
+  ],
+  "author": "studioLabs (https://github.com/studioLabs)",
+  "license": "MIT",
+  "homepage": "https://github.com/studioLabs/react-native-live-stream",
+  "bugs": {
+    "url": "https://github.com/studioLabs/react-native-live-stream/issues"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
