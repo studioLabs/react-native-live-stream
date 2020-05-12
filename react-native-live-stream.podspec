@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/studioLabs/react-native-live-stream.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
 
+  s.vendored_frameworks = 'NodeMediaClient/NodeMediaClient.framework'
+
   s.dependency 'React'
   s.dependency 'NodeMediaClient'
 end
